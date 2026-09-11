@@ -1,0 +1,24 @@
+## System Information Utility
+
+Modular cross-platform compatible system monitoring utility written in Python by me.
+
+## System hardware requirements
+- Intel Core 2 Duo E6300 / AMD Athlon 64 X2 3800+ or newer (just to execute, recommend newer hardware for smoother experience).
+- At least 50 MB of available system memory.
+- At least 140 MB of available storage.
+
+## System software requirements (minimum) - 64-bit only
+- Python 3.6 or newer.
+- Windows 7 Starter, Home Basic, Home Premium, Professional, Enterprise, Ultimate SP1 (Build 7601 or newer with UCRT patch via update KB2999226 and the Visual C++ 2015–2019 Redistributable (x64) runtimes)
+- Linux Kernel 2.6.13+
+- macOS X 10.9 (Mavericks)
+- You must install the required libraries for the utility to work, you can install them with this command: `pip install -r requirements.txt` or `pip3 install -r requirements.txt`.
+
+## License
+- This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Additions
+- When you want to use the utility, execute file `run.py` with Python 3.6+ or `python run.py` / `python3 run.py`.
+
+- If you want to enable Debug mode, add the `--debug` flag, for example `python run.py --debug` / `python3 run.py --debug`, 
+although events with severity higher than `INFO` will be automatically logged.
