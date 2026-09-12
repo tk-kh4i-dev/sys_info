@@ -1,7 +1,7 @@
 # Copyright (c) 2026 tk-kh4i-dev. Licensed under the MIT License.
 
 """
-To use, execute 'python/python3 run.py' in a terminal.
+To use, execute `python run.py` or `python3 run.py` in a terminal.
 """
 
 import os
